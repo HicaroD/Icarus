@@ -79,8 +79,8 @@ call s:h("Comment",       {"fg": s:soft_grey, "gui": "italic"})
 call s:h("Constant",      {"fg": s:purple})
 hi! link String           Constant
 hi! link Boolean          Constant
-call s:h("Float",         {"fg": s:orange})
-call s:h("Number",        {"fg": s:indian_red})
+call s:h("Float",         {"fg": s:indian_red})
+call s:h("Number",        {"fg": s:red})
 call s:h("Character",     {"fg": s:lilac})
 
 " Any variable name
