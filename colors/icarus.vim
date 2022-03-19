@@ -97,7 +97,7 @@ hi! link Repeat           Statement
 hi! link Label            Statement
 
 " sizeof, +, *, etc.
-call s:h("Operator",      {"fg": s:norm, "cterm": "bold", "gui": "bold"})
+call s:h("Operator",      {"fg": s:norm})
 
 hi! link Keyword          Statement
 
@@ -117,7 +117,7 @@ hi! link Structure        Type
 hi! link Typedef          Type
 
 " any special symbol (parenthesis, curly braces and more)
-call s:h("Special",       {"fg": s:norm_subtle, "gui": "italic"})
+call s:h("Special",       {"fg": s:green, "gui": "italic"})
 hi! link SpecialChar      Special
 hi! link Tag              Special
 hi! link Delimiter        Special
