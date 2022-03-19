@@ -19,6 +19,8 @@ let s:medium_black    = { "gui": "#1E1E1E", "cterm": "188" }
 let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
 let s:white           = { "gui": "#F1F1F1", "cterm": "15"  }
 let s:actual_white    = { "gui": "#FFFFFF", "cterm": "231" }
+let s:light_hard      = { "gui": "#FBF1C7", "cterm": "229" }
+let s:light_soft      = { "gui": "#F2E5BC", "cterm": "228" }
 let s:light_cyan      = { "gui": "#E0FFFF", "cterm": "15"  }
 let s:mint_cream      = { "gui": "#F5FFFA", "cterm": "15"  }
 let s:subtle_black    = { "gui": "#303030", "cterm": "236" }
@@ -82,7 +84,7 @@ function! s:h(group, style)
     \ "cterm="   (has_key(a:style, "cterm") ? a:style.cterm    : "NONE")
 endfunction
 
-call s:h("Normal",        {"bg": s:bg, "fg": s:norm})
+call s:h("Normal",        {"bg": s:bg, "fg": s:light_soft})
 
 if &background != s:background
    execute "set background=" . s:background
@@ -102,7 +104,6 @@ call s:h("Character",     {"fg": s:lilac})
 " Any variable name
 hi! link Identifier       Normal
 call s:h("Function",      {"fg": s:bright_red})
-
 call s:h("Statement",     {"fg": s:dodger_blue})
 " if, then, else, endif, switch, etc.
 hi! link Conditonal       Statement
