@@ -41,7 +41,7 @@ let s:actual_green    = { "gui": "#90FF1E", "cterm": "2"   }
 let s:light_green     = { "gui": "#5FD7A7", "cterm": "10"  }
 let s:light_purple    = { "gui": "#a790d5", "cterm": "140" }
 let s:yellow          = { "gui": "#FFC72C", "cterm": "11"  }
-let s:boolean         = { "gui": "#986454", "cterm": "11"  }
+let s:boolean         = { "gui": "#90ff1e", "cterm": "11"  }
 let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
 
 let s:background = &background
