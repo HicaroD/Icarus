@@ -103,7 +103,7 @@ call s:h("Character",     {"fg": s:lilac})
 
 " Any variable name
 hi! link Identifier       Normal
-call s:h("Function",      {"fg": s:bright_red})
+call s:h("Function",      {"fg": s:bright_red, "cterm": "bold"})
 call s:h("Statement",     {"fg": s:dodger_blue})
 " if, then, else, endif, switch, etc.
 hi! link Conditonal       Statement
@@ -136,7 +136,7 @@ hi! link Typedef          Type
 
 " any special symbol (parenthesis, curly braces and more)
 call s:h("Special",       {"fg": s:norm_subtle, "gui": "italic"})
-call s:h("SpecialChar",   {"fg": s:bright_orange})
+hi! link SpecialChar      Special
 hi! link Tag              Special
 hi! link Delimiter        Special
 hi! link SpecialComment   Special
