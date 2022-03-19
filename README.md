@@ -22,8 +22,7 @@ as a plugin.
 ## Contributions
 
 If you find any problems with this color scheme please post an issue here on
-GitHub. If you don't like some specific color, please fork it instead and customize
-to your liking. Thanks!
+GitHub. 
 
 ## License
 
