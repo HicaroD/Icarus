@@ -135,7 +135,7 @@ hi! link Typedef          Type
 
 " any special symbol (parenthesis, curly braces and more)
 call s:h("Special",       {"fg": s:norm_subtle, "gui": "italic"})
-hi! link SpecialChar      Special
+call s:h("SpecialChar",   {"fg": s:bright_orange})
 hi! link Tag              Special
 hi! link Delimiter        Special
 hi! link SpecialComment   Special
