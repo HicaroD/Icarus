@@ -16,6 +16,7 @@ let g:colors_name='icarus'
 
 let s:black           = { "gui": "#000000", "cterm": "232" }
 let s:medium_black    = { "gui": "#1E1E1E", "cterm": "188" }
+let s:hard_black      = { "gui": "#1d2021", "cterm": "234"}
 let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
 let s:white           = { "gui": "#F1F1F1", "cterm": "15"  }
 let s:actual_white    = { "gui": "#FFFFFF", "cterm": "231" }
@@ -27,6 +28,7 @@ let s:subtle_black    = { "gui": "#303030", "cterm": "236" }
 let s:light_black     = { "gui": "#262626", "cterm": "235" }
 let s:lighter_black   = { "gui": "#4E4E4E", "cterm": "239" }
 let s:grey            = { "gui": "#444444", "cterm": "188" }
+let s:soft_grey       = { "gui": "#928374", "cterm": "244" }
 let s:light_gray      = { "gui": "#6C6C6C", "cterm": "248" }
 let s:lighter_gray    = { "gui": "#C6C6C6", "cterm": "251" }
 let s:lightest_gray   = { "gui": "#EEEEEE", "cterm": "255" }
@@ -35,9 +37,9 @@ let s:firebrick       = { "gui": "#B22222", "cterm": "9"   }
 let s:bright_red      = { "gui": "#FB4934", "cterm": "167" }
 let s:dark_red        = { "gui": "#C30771", "cterm": "1"   }
 let s:light_red       = { "gui": "#E32791", "cterm": "1"   }
-let s:orange          = { "gui": "#D78700", "cterm": "130"}
+let s:orange          = { "gui": "#D78700", "cterm": "130" }
 let s:bright_orange   = { "gui": "#FE8019", "cterm": "208" }
-let s:dark_orange     = { "gui": "#D75F00", "cterm": "166"}
+let s:dark_orange     = { "gui": "#D75F00", "cterm": "166" }
 let s:indian_red      = { "gui": "#D75F5F", "cterm": "167" }
 let s:dodger_blue     = { "gui": "#1E90FF", "cterm": "26"  }
 let s:darker_blue     = { "gui": "#005F87", "cterm": "18"  }
@@ -60,7 +62,7 @@ let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
 
 let s:background = &background
 
-let s:bg              = s:medium_black
+let s:bg              = s:hard_black
 let s:bg_subtle       = s:lighter_black
 let s:bg_very_subtle  = s:subtle_black
 let s:norm            = s:lighter_gray
@@ -90,7 +92,7 @@ if &background != s:background
 endif
 
 call s:h("Cursor",        {"bg": s:purple, "fg": s:norm })
-call s:h("Comment",       {"fg": s:grey, "gui": "italic"})
+call s:h("Comment",       {"fg": s:soft_grey, "gui": "italic"})
 
 call s:h("Constant",      {"fg": s:purple})
 hi! link String           Constant
