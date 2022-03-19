@@ -40,6 +40,7 @@ let s:dark_green      = { "gui": "#10A778", "cterm": "2"   }
 let s:light_green     = { "gui": "#5FD7A7", "cterm": "10"  }
 let s:light_purple    = { "gui": "#a790d5", "cterm": "140" }
 let s:yellow          = { "gui": "#FFC72C", "cterm": "11"  }
+let s:boolean_yellow  = { "gui": "#F8E81C", "cterm": "11"  }
 let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
 
 let s:background = &background
@@ -78,7 +79,7 @@ call s:h("Comment",       {"fg": s:soft_grey, "gui": "italic"})
 
 call s:h("Constant",      {"fg": s:purple})
 hi! link String           Constant
-hi! link Boolean          Constant
+call s:h("Boolean",       {"fg": s:boolean_yellow})
 call s:h("Float",         {"fg": s:indian_red})
 call s:h("Number",        {"fg": s:red})
 call s:h("Character",     {"fg": s:lilac})
