@@ -54,7 +54,7 @@ let s:forest_green    = { "gui": "#228B22", "cterm": "34"  }
 let s:yellow_green    = { "gui": "#9ACD32", "cterm": "34"  }
 let s:dark_purple     = { "gui": "#af5fd7", "cterm": "134" }
 let s:light_purple    = { "gui": "#a790d5", "cterm": "140" }
-let s:yellow          = { "gui": "#F3E430", "cterm": "11"  }
+let s:yellow          = { "gui": "#FFC72C", "cterm": "11"  }
 let s:light_yellow    = { "gui": "#ffff87", "cterm": "228" }
 let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
 
@@ -70,7 +70,6 @@ let s:cyan            = s:light_cyan
 let s:green           = s:light_green
 let s:red             = s:light_red
 let s:visual          = s:light_purple
-let s:yellow          = s:light_yellow
 
 " https://github.com/noahfrederick/vim-hemisu/
 function! s:h(group, style)
