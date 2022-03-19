@@ -1,6 +1,6 @@
 # Icarus
 
-A simple dark colorscheme for Vim.
+A simple dark based colorscheme for Vim.
 
 ## Screenshots
 
@@ -18,8 +18,6 @@ as a plugin.
 ```
 :colorscheme icarus
 ```
-
-Supports both `background=light` and `background=dark`.
 
 ## Contributions
 
