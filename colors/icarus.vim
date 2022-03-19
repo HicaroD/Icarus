@@ -33,8 +33,10 @@ let s:firebrick       = { "gui": "#B22222", "cterm": "9"   }
 let s:bright_red      = { "gui": "#FB4934", "cterm": "167" }
 let s:dark_red        = { "gui": "#C30771", "cterm": "1"   }
 let s:light_red       = { "gui": "#E32791", "cterm": "1"   }
+let s:orange          = { "gui": "#D78700", "cterm": "130"}
 let s:bright_orange   = { "gui": "#FE8019", "cterm": "208" }
-let s:orange          = { "gui": "#D75F5F", "cterm": "167" }
+let s:dark_orange     = { "gui": "#D75F00", "cterm": "166"}
+let s:indian_red      = { "gui": "#D75F5F", "cterm": "167" }
 let s:dodger_blue     = { "gui": "#1E90FF", "cterm": "26"  }
 let s:darker_blue     = { "gui": "#005F87", "cterm": "18"  }
 let s:dark_blue       = { "gui": "#008EC4", "cterm": "32"  }
@@ -92,9 +94,10 @@ call s:h("Comment",       {"fg": s:grey, "gui": "italic"})
 call s:h("Constant",      {"fg": s:purple})
 hi! link String           Constant
 hi! link Boolean          Constant
-hi! link Float            Constant
-call s:h("Number",        {"fg": s:orange})
+call s:h("Float",         {"fg": s:orange})
+call s:h("Number",        {"fg": s:indian_red})
 call s:h("Character",     {"fg": s:lilac})
+
 
 " Any variable name
 hi! link Identifier       Normal
