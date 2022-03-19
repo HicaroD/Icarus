@@ -1,6 +1,6 @@
 # Icarus
 
-A simple Vim colorscheme.
+A simple dark colorscheme for Vim.
 
 ## Screenshots
 
