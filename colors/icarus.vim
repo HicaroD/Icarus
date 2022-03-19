@@ -16,7 +16,7 @@ let g:colors_name='icarus'
 
 let s:black           = { "gui": "#000000", "cterm": "232" }
 let s:medium_black    = { "gui": "#1E1E1E", "cterm": "188" }
-let s:hard_black      = { "gui": "#1d2021", "cterm": "234"}
+let s:hard_black      = { "gui": "#1d2021", "cterm": "234" }
 let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
 let s:white           = { "gui": "#F1F1F1", "cterm": "15"  }
 let s:actual_white    = { "gui": "#FFFFFF", "cterm": "231" }
@@ -101,7 +101,6 @@ call s:h("Float",         {"fg": s:orange})
 call s:h("Number",        {"fg": s:indian_red})
 call s:h("Character",     {"fg": s:lilac})
 
-
 " Any variable name
 hi! link Identifier       Normal
 call s:h("Function",      {"fg": s:bright_red, "cterm": "bold"})
@@ -124,7 +123,7 @@ hi! link Keyword          Statement
 hi! link Exception        Statement
 
 
-call s:h("PreProc",     {"fg": s:yellow})
+call s:h("PreProc",     {"fg": s:yellow, "cterm": "bold"})
 hi! link Include          PreProc
 hi! link Define           PreProc
 hi! link Macro            PreProc
