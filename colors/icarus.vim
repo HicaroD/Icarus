@@ -37,6 +37,7 @@ let s:dodger_blue     = { "gui": "#1E90FF", "cterm": "26"  }
 let s:dark_blue       = { "gui": "#008EC4", "cterm": "32"  }
 let s:lilac           = { "gui": "#C8A2C8", "cterm": "32"  }
 let s:dark_green      = { "gui": "#10A778", "cterm": "2"   }
+let s:actual_green    = { "gui": "#90FF1E", "cterm": "2"   }
 let s:light_green     = { "gui": "#5FD7A7", "cterm": "10"  }
 let s:light_purple    = { "gui": "#a790d5", "cterm": "140" }
 let s:yellow          = { "gui": "#FFC72C", "cterm": "11"  }
@@ -52,7 +53,7 @@ let s:norm            = s:lighter_gray
 let s:norm_subtle     = s:medium_gray
 let s:purple          = s:light_purple
 let s:cyan            = s:light_cyan
-let s:green           = s:light_green
+let s:green           = s:actual_green
 let s:red             = s:light_red
 let s:visual          = s:light_purple
 
