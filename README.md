@@ -16,7 +16,7 @@ as a plugin.
 ## Usage
 
 ```
-:colorscheme paramount
+:colorscheme icarus
 ```
 
 Supports both `background=light` and `background=dark`.
