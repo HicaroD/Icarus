@@ -123,7 +123,7 @@ hi! link Keyword          Statement
 hi! link Exception        Statement
 
 
-call s:h("PreProc",     {"fg": s:norm_subtle})
+call s:h("PreProc",     {"fg": s:yellow})
 hi! link Include          PreProc
 hi! link Define           PreProc
 hi! link Macro            PreProc
