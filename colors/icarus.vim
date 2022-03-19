@@ -84,7 +84,7 @@ function! s:h(group, style)
     \ "cterm="   (has_key(a:style, "cterm") ? a:style.cterm    : "NONE")
 endfunction
 
-call s:h("Normal",        {"bg": s:bg, "fg": s:light_soft})
+call s:h("Normal",        {"bg": s:bg, "fg": s:actual_white})
 
 if &background != s:background
    execute "set background=" . s:background
