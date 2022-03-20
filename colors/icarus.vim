@@ -119,7 +119,7 @@ hi! link Delimiter        Special
 hi! link SpecialComment   Special
 hi! link Debug            Special
 
-call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
+call s:h("Underlined",    {"fg": s:mint_cream, "gui": "underline", "cterm": "underline"})
 call s:h("Ignore",        {"fg": s:bg})
 call s:h("Error",         {"fg": s:actual_white, "bg": s:dodger_blue, "cterm": "bold"})
 call s:h("Todo",          {"fg": s:mint_cream})
