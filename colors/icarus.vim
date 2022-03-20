@@ -76,8 +76,7 @@ endif
 call s:h("Cursor",        {"bg": s:purple, "fg": s:norm })
 call s:h("Comment",       {"fg": s:soft_grey, "gui": "italic"})
 
-call s:h("Constant",      {"fg": s:purple})
-hi! link String           Constant
+call s:h("String",        {"fg": s:purple})
 call s:h("Boolean",       {"fg": s:boolean})
 call s:h("Float",         {"fg": s:indian_red})
 call s:h("Number",        {"fg": s:red})
@@ -155,8 +154,8 @@ call s:h("DiffChange",    {"fg": s:dark_yellow})
 call s:h("DiffText",      {"fg": s:dark_blue})
 call s:h("SignColumn",    {"fg": s:light_green})
 
-call s:h("Pmenu",         {"fg": s:norm, "bg": s:bg_subtle})
-call s:h("PmenuSel",      {"fg": s:norm, "bg": s:purple})
+call s:h("Pmenu",         {"fg": s:white, "bg": s:bg_subtle})
+call s:h("PmenuSel",      {"fg": s:actual_white, "bg": s:bright_red})
 call s:h("PmenuSbar",     {"fg": s:norm, "bg": s:bg_subtle})
 call s:h("PmenuThumb",    {"fg": s:norm, "bg": s:bg_subtle})
 call s:h("TabLine",       {"fg": s:norm, "bg": s:bg_very_subtle})
