@@ -44,7 +44,7 @@ GitHub.
 ## Credits
 
 Thank vou very much for the amazing color recomendations, [Marcelo][], [Noemy][], [Rebeca][] and [Wemilly][]. The idea was to mix
-my friends's favorite colors in one colorscheme, that's was the result. I hope everyone like it :smile:.
+my friends's favorite colors in one color scheme, that's was the result. I hope everyone like it :smile:.
 
 [marcelo]: https://github.com/basedCadet
 [noemy]: https://github.com/noemyroberta
