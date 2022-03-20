@@ -155,16 +155,15 @@ call s:h("DiffChange",    {"fg": s:dark_yellow})
 call s:h("DiffText",      {"fg": s:dark_blue})
 call s:h("SignColumn",    {"fg": s:light_green})
 
-
 if has("gui_running")
   call s:h("SpellBad",    {"gui": "underline", "sp": s:red})
   call s:h("SpellCap",    {"gui": "underline", "sp": s:light_green})
-  call s:h("SpellRare",   {"gui": "underline", "sp": s:pink})
+  call s:h("SpellRare",   {"gui": "underline", "sp": s:dodger_blue})
   call s:h("SpellLocal",  {"gui": "underline", "sp": s:dark_green})
 else
   call s:h("SpellBad",    {"cterm": "underline", "fg": s:red})
   call s:h("SpellCap",    {"cterm": "underline", "fg": s:light_green})
-  call s:h("SpellRare",   {"cterm": "underline", "fg": s:pink})
+  call s:h("SpellRare",   {"cterm": "underline", "fg": s:dodger_blue})
   call s:h("SpellLocal",  {"cterm": "underline", "fg": s:dark_green})
 endif
 
