@@ -28,20 +28,19 @@ let s:lighter_gray    = { "gui": "#C6C6C6", "cterm": "251" }
 let s:bright_red      = { "gui": "#FF3D23", "cterm": "167" }
 let s:scarlet_red     = { "gui": "#FF2400", "cterm": "167" }
 let s:light_red       = { "gui": "#E32791", "cterm": "1"   }
-let s:orange          = { "gui": "#FBAB34", "cterm": "1"   }
 let s:bright_orange   = { "gui": "#C88623", "cterm": "208" }
 let s:indian_red      = { "gui": "#D75F5F", "cterm": "167" }
 let s:dodger_blue     = { "gui": "#1E90FF", "cterm": "26"  }
 let s:vivid_sky_blue  = { "gui": "#40BDFF", "cterm": "26"  }
 let s:dark_blue       = { "gui": "#008EC4", "cterm": "32"  }
 let s:lilac           = { "gui": "#C8A2C8", "cterm": "32"  }
-let s:actual_green    = { "gui": "#90FF1E", "cterm": "2"   }
 let s:light_green     = { "gui": "#5FD7A7", "cterm": "10"  }
 let s:light_purple    = { "gui": "#B19CD9", "cterm": "140" }
 let s:yellow          = { "gui": "#DEDD5A", "cterm": "11"  }
 let s:boolean         = { "gui": "#4ABAB7", "cterm": "11"  }
 let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
 let s:azure_blue      = { "gui": "#00B7EB", "cterm": "26"  }
+let s:orange          = { "gui": "#F9A602", "cterm": "208" }
 
 let s:background = &background
 
