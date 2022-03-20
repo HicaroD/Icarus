@@ -88,13 +88,13 @@ call s:h("Statement",     {"fg": s:vivid_sky_blue})
 hi! link Conditonal       Statement
 
 " for, do, while, etc.
-hi! link Repeat           Statement
+call s:h("Repeat",        {"fg": s:dodger_blue})
 
 " case, default, etc.
 hi! link Label            Statement
 
 " sizeof, +, *, etc.
-call s:h("Operator",      {"fg": s:norm})
+call s:h("Operator",      {"fg": s:vivid_sky_blue})
 
 hi! link Keyword          Statement
 
