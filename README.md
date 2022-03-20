@@ -9,9 +9,26 @@
 
 ## Installation
 
-Copy the color scheme file to your `~/.vim/colors` directory, or use a plugin
-manager like [Plug][] or [Vundle][] and add `"HicaroD/Icarus"`
-as a plugin.
+1. From source
+
+```
+git clone https://github.com/HicaroD/Icarus
+mv Icarus/colors/icarus.vim ~/.vim/colors/icarus.vim
+```
+
+2. [Vim-Plug][]
+
+In your `.vimrc` or `init.vim` (For NeoVim):
+```
+Plug 'HicaroD/Icarus'
+```
+
+3. [Vundle][]
+
+In your `.vimrc` or `init.vim` (For NeoVim):
+```
+Plugin 'HicaroD/Icarus'
+```
 
 [vundle]: https://github.com/gmarik/Vundle.vim
 [plug]: https://github.com/junegunn/vim-plug
