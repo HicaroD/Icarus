@@ -7,7 +7,7 @@
 ## Screenshots
 ![rust](screenshots/rust.png)
 
-See more screenshots [here](screenshots/screenshots.md)
+See more screenshots [here](screenshots/)
 
 ## Installation
 
