@@ -203,17 +203,7 @@ hi link GitGutterChangeDelete       LineNr
 
 " Python: {{{ 
 syn keyword pythonStatement	False, None, True, self
-syn keyword pythonStatement	as assert break continue del exec global
-syn keyword pythonStatement	lambda nonlocal pass print return with yield
-syn keyword pythonStatement	def nextgroup=pythonFunction skipwhite
-syn keyword pythonStatement	class nextgroup=pythonClass skipwhite
-syn keyword pythonConditional	elif else if
-syn keyword pythonRepeat	for while
-syn keyword pythonOperator	and in is not or
-syn keyword pythonException	except finally raise try
-syn keyword pythonInclude	from import
-syn keyword pythonBoolean   True, False
 
-hi! link pythonBoolean Boolean
+hi! link pythonStatement Boolean
 
 " }}}
