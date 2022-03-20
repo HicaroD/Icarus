@@ -25,21 +25,21 @@ let s:light_black     = { "gui": "#262626", "cterm": "235" }
 let s:lighter_black   = { "gui": "#4E4E4E", "cterm": "239" }
 let s:soft_grey       = { "gui": "#928374", "cterm": "244" }
 let s:lighter_gray    = { "gui": "#C6C6C6", "cterm": "251" }
-let s:bright_red      = { "gui": "#FB4934", "cterm": "167" }
+let s:bright_red      = { "gui": "#FF3D23", "cterm": "167" }
 let s:light_red       = { "gui": "#E32791", "cterm": "1"   }
 let s:orange          = { "gui": "#FBAB34", "cterm": "1"   }
-let s:bright_orange   = { "gui": "#FE8019", "cterm": "208" }
+let s:bright_orange   = { "gui": "#C88623", "cterm": "208" }
 let s:indian_red      = { "gui": "#D75F5F", "cterm": "167" }
 let s:dodger_blue     = { "gui": "#1E90FF", "cterm": "26"  }
+let s:vivid_sky_blue  = { "gui": "#40BDFF", "cterm": "26"  }
 let s:dark_blue       = { "gui": "#008EC4", "cterm": "32"  }
 let s:lilac           = { "gui": "#C8A2C8", "cterm": "32"  }
 let s:actual_green    = { "gui": "#90FF1E", "cterm": "2"   }
 let s:light_green     = { "gui": "#5FD7A7", "cterm": "10"  }
 let s:light_purple    = { "gui": "#B19CD9", "cterm": "140" }
-let s:yellow          = { "gui": "#FFC72C", "cterm": "11"  }
+let s:yellow          = { "gui": "#DEDD5A", "cterm": "11"  }
 let s:boolean         = { "gui": "#4ABAB7", "cterm": "11"  }
 let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
-let s:baby_blue       = { "gui": "#34D7FB", "cterm": "26"  }
 
 let s:background = &background
 
@@ -83,7 +83,7 @@ call s:h("Character",     {"fg": s:lilac})
 " Any variable name
 hi! link Identifier       Normal
 call s:h("Function",      {"fg": s:bright_red, "cterm": "bold"})
-call s:h("Statement",     {"fg": s:dodger_blue})
+call s:h("Statement",     {"fg": s:vivid_sky_blue})
 " if, then, else, endif, switch, etc.
 hi! link Conditonal       Statement
 
@@ -123,7 +123,7 @@ hi! link Debug            Special
 
 call s:h("Underlined",    {"fg": s:medium_gray, "gui": "underline", "cterm": "underline"})
 call s:h("Ignore",        {"fg": s:bg})
-call s:h("Error",         {"fg": s:actual_white, "bg": s:dodger_blue, "cterm": "bold"})
+call s:h("Error",         {"fg": s:actual_white, "bg": s:vivid_sky_blue, "cterm": "bold"})
 call s:h("Todo",          {"fg": s:mint_cream})
 call s:h("SpecialKey",    {"fg": s:light_green})
 call s:h("NonText",       {"fg": s:medium_gray})
@@ -157,7 +157,7 @@ call s:h("PmenuSel",      {"fg": s:actual_white, "bg": s:bright_red})
 call s:h("PmenuSbar",     {"fg": s:norm, "bg": s:bg_subtle})
 call s:h("PmenuThumb",    {"fg": s:norm, "bg": s:bg_subtle})
 call s:h("TabLine",       {"fg": s:bright_orange, "bg": s:bg_very_subtle})
-call s:h("TabLineSel",    {"fg": s:dodger_blue, "bg": s:bg_subtle, "gui": "bold", "cterm": "bold"})
+call s:h("TabLineSel",    {"fg": s:vivid_sky_blue, "bg": s:bg_subtle, "gui": "bold", "cterm": "bold"})
 call s:h("TabLineFill",   {"fg": s:norm, "bg": s:bg_very_subtle})
 call s:h("CursorColumn",  {"bg": s:bg_very_subtle})
 call s:h("CursorLine",    {"bg": s:bg_very_subtle})
@@ -199,5 +199,5 @@ hi link GitGutterChangeDelete       LineNr
 
 " Python: {{{
 hi! link pythonBoolean Boolean
-call s:h("pythonClassVar", {"fg": s:baby_blue})
+call s:h("pythonClassVar", {"fg": s:dodger_blue})
 " }}}
