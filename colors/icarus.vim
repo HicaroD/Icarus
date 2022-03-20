@@ -39,7 +39,7 @@ let s:light_purple    = { "gui": "#B19CD9", "cterm": "140" }
 let s:yellow          = { "gui": "#FFC72C", "cterm": "11"  }
 let s:boolean         = { "gui": "#4ABAB7", "cterm": "11"  }
 let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
-let s:dark_violet     = { "gui": "#AC34FB", "cterm": "92"  }
+let s:baby_blue       = { "gui": "#34D7FB", "cterm": "26"  }
 
 let s:background = &background
 
@@ -199,5 +199,5 @@ hi link GitGutterChangeDelete       LineNr
 
 " Python: {{{
 hi! link pythonBoolean Boolean
-call s:h("pythonClassVar", {"fg": s:dark_violet})
+call s:h("pythonClassVar", {"fg": s:baby_blue})
 " }}}
