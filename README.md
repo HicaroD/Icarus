@@ -10,21 +10,14 @@
 
 ## Installation
 
-1. From source
-
-    ```
-    git clone https://github.com/HicaroD/Icarus
-    mv Icarus/colors/icarus.vim ~/.vim/colors/icarus.vim
-    ```
-
-2. [Plug][]
+1. [Plug][]
 
     In your `.vimrc` or `init.vim` (For NeoVim):
     ```
     Plug 'HicaroD/Icarus'
     ```
 
-3. [Vundle][]
+2. [Vundle][]
 
     In your `.vimrc` or `init.vim` (For NeoVim):
     ```
