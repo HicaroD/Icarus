@@ -1,1 +1,6 @@
 notes.txt
+screenshots/*.rs
+screenshots/*.py
+screenshots/*.js
+screenshots/*.go
+screenshots/*.tsx
