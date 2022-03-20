@@ -17,6 +17,8 @@ as a plugin.
 
 ## Usage
 
+Add this to your `.vimrc`.
+
 ```
 set termguicolors
 colorscheme icarus
