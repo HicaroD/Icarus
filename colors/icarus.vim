@@ -41,6 +41,7 @@ let s:light_purple    = { "gui": "#B19CD9", "cterm": "140" }
 let s:yellow          = { "gui": "#DEDD5A", "cterm": "11"  }
 let s:boolean         = { "gui": "#4ABAB7", "cterm": "11"  }
 let s:dark_yellow     = { "gui": "#A89C14", "cterm": "3"   }
+let s:azure_blue      = { "gui": "#00B7EB", "cterm": "26"  }
 
 let s:background = &background
 
@@ -84,7 +85,7 @@ call s:h("Character",     {"fg": s:lilac})
 " Any variable name
 call s:h("Identifier",    {"bg": s:bg, "fg": s:actual_white})
 call s:h("Function",      {"fg": s:scarlet_red, "cterm": "bold"})
-call s:h("Statement",     {"fg": s:vivid_sky_blue})
+call s:h("Statement",     {"fg": s:azure_blue})
 
 " if, then, else, endif, switch, etc.
 call s:h("Conditional",   {"fg": s:dodger_blue})
