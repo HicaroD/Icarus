@@ -202,7 +202,7 @@ hi link GitGutterChangeDelete       LineNr
 " Language support
 
 " Python: {{{ 
-syn keyword pythonStatement	False, None, True, self
+syn keyword pythonStatement	False None True self
 
 hi! link pythonStatement Boolean
 
