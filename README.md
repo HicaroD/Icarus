@@ -13,14 +13,12 @@ See more screenshots [here](screenshots/)
 
 1. [Plug][]
 
-    In your `.vimrc` or `init.vim` (For NeoVim):
     ```
     Plug 'HicaroD/Icarus'
     ```
 
 2. [Vundle][]
 
-    In your `.vimrc` or `init.vim` (For NeoVim):
     ```
     Plugin 'HicaroD/Icarus'
     ```
