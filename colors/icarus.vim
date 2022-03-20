@@ -97,7 +97,7 @@ call s:h("Label",         {"fg": s:vivid_sky_blue})
 " sizeof, +, *, etc.
 call s:h("Operator",      {"fg": s:vivid_sky_blue})
 
-call s:h("Keyword",       {"fg": s:dodger_blue})
+call s:h("Keyword",       {"fg": s:vivid_sky_blue})
 
 " try, catch, throw
 call s:h("Expection",     {"fg": s:vivid_sky_blue})
