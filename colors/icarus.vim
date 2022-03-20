@@ -194,8 +194,8 @@ hi link GitGutterDelete             LineNr
 hi link GitGutterChange             LineNr
 hi link GitGutterChangeDelete       LineNr
 
+
 " Python: {{{
 syn keyword pythonBoolean False True
-
-hi link pythonBoolean Boolean
+hi! link pythonBoolean Boolean
 " }}}
