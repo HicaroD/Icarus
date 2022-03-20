@@ -3,7 +3,7 @@
 " Maintainer: github.com/HicaroD
 " License:    The MIT License (MIT)
 "
-" A simple Vim colorscheme.
+" A simple dark based colorscheme for Vim.
 "
 """
 hi clear
