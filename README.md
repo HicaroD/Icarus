@@ -17,7 +17,7 @@ as a plugin.
 
 ## Usage
 
-Add this to your `.vimrc`.
+Add this to your `.vimrc`:
 
 ```
 set termguicolors
