@@ -5,6 +5,7 @@
 🎨 A simple dark based colorscheme for Vim.
 
 ## Screenshots
+![1.png](screenshots/1.png)
 
 ## Installation
 
