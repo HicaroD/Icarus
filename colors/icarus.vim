@@ -126,7 +126,7 @@ hi! link Debug            Special
 
 call s:h("Underlined",    {"fg": s:norm, "gui": "underline", "cterm": "underline"})
 call s:h("Ignore",        {"fg": s:bg})
-call s:h("Error",         {"fg": s:actual_white, "bg": s:red, "cterm": "bold"})
+call s:h("Error",         {"fg": s:actual_white, "bg": s:dodger_blue, "cterm": "bold"})
 call s:h("Todo",          {"fg": s:mint_cream})
 call s:h("SpecialKey",    {"fg": s:light_green})
 call s:h("NonText",       {"fg": s:medium_gray})
@@ -158,12 +158,12 @@ call s:h("SignColumn",    {"fg": s:light_green})
 if has("gui_running")
   call s:h("SpellBad",    {"gui": "underline", "sp": s:red})
   call s:h("SpellCap",    {"gui": "underline", "sp": s:light_green})
-  call s:h("SpellRare",   {"gui": "underline", "sp": s:dodger_blue})
+  call s:h("SpellRare",   {"gui": "underline", "sp": s:pink})
   call s:h("SpellLocal",  {"gui": "underline", "sp": s:dark_green})
 else
   call s:h("SpellBad",    {"cterm": "underline", "fg": s:red})
   call s:h("SpellCap",    {"cterm": "underline", "fg": s:light_green})
-  call s:h("SpellRare",   {"cterm": "underline", "fg": s:dodger_blue})
+  call s:h("SpellRare",   {"cterm": "underline", "fg": s:pink})
   call s:h("SpellLocal",  {"cterm": "underline", "fg": s:dark_green})
 endif
 
