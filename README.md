@@ -18,7 +18,8 @@ as a plugin.
 ## Usage
 
 ```
-:colorscheme icarus
+set termguicolors
+colorscheme icarus
 ```
 
 ## Contributions
