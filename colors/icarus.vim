@@ -49,7 +49,7 @@ let s:bg_very_subtle  = s:subtle_black
 let s:norm            = s:lighter_gray
 let s:norm_subtle     = s:medium_gray
 let s:purple          = s:light_purple
-let s:green           = s:actual_green
+let s:green           = s:light_green
 let s:red             = s:light_red
 let s:visual          = s:lighter_black
 
@@ -86,13 +86,10 @@ call s:h("Function",      {"fg": s:bright_red, "cterm": "bold"})
 call s:h("Statement",     {"fg": s:vivid_sky_blue})
 
 " if, then, else, endif, switch, etc.
-call s:h("Conditional",   {"fg": s:vivid_sky_blue})
-
-" for, do, while, etc.
-call s:h("Repeat",        {"fg": s:actual_white})
+call s:h("Conditional",   {"fg": s:dodger_blue})
 
 " case, default, etc.
-call s:h("Label",         {"fg": s:vivid_sky_blue})
+call s:h("Label",         {"fg": s:dodger_blue})
 
 " sizeof, +, *, etc.
 call s:h("Operator",      {"fg": s:vivid_sky_blue})
