@@ -198,12 +198,3 @@ hi link GitGutterAdd                LineNr
 hi link GitGutterDelete             LineNr
 hi link GitGutterChange             LineNr
 hi link GitGutterChangeDelete       LineNr
-
-" Language support
-
-" Python: {{{ 
-syn keyword pythonStatement	False None True self
-
-hi! link pythonStatement Boolean
-
-" }}}
