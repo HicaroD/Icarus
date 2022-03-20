@@ -83,7 +83,7 @@ call s:h("Character",     {"fg": s:lilac})
 
 " Any variable name
 call s:h("Identifier",    {"bg": s:bg, "fg": s:actual_white})
-call s:h("Function",      {"fg": s:candy_red, "cterm": "bold"})
+call s:h("Function",      {"fg": s:scarlet_red, "cterm": "bold"})
 call s:h("Statement",     {"fg": s:vivid_sky_blue})
 
 " if, then, else, endif, switch, etc.
