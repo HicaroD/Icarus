@@ -5,8 +5,9 @@
 🎨 A simple dark based color scheme for [Neo]Vim. 
 
 ## Screenshots
-![1.png](screenshots/1.png)
-![2.png](screenshots/2.png)
+![rust](screenshots/rust.png)
+
+See more screenshots [here](screenshots/screenshots.md)
 
 ## Installation
 
