@@ -81,25 +81,26 @@ call s:h("Number",        {"fg": s:red})
 call s:h("Character",     {"fg": s:lilac})
 
 " Any variable name
-hi! link Identifier       Normal
+call s:h("Identifier",    {"bg": s:bg, "fg": s:actual_white})
 call s:h("Function",      {"fg": s:bright_red, "cterm": "bold"})
 call s:h("Statement",     {"fg": s:vivid_sky_blue})
+
 " if, then, else, endif, switch, etc.
-hi! link Conditonal       Statement
+call s:h("Conditional",   {"fg": s:vivid_sky_blue})
 
 " for, do, while, etc.
-call s:h("Repeat",        {"fg": s:dodger_blue})
+call s:h("Repeat",        {"fg": s:actual_white})
 
 " case, default, etc.
-hi! link Label            Statement
+call s:h("Label",         {"fg": s:vivid_sky_blue})
 
 " sizeof, +, *, etc.
 call s:h("Operator",      {"fg": s:vivid_sky_blue})
 
-hi! link Keyword          Statement
+call s:h("Keyword",       {"fg": s:dodger_blue})
 
 " try, catch, throw
-hi! link Exception        Statement
+call s:h("Expection",     {"fg": s:vivid_sky_blue})
 
 
 call s:h("PreProc",     {"fg": s:yellow, "cterm": "bold"})
