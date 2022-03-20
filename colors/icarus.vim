@@ -53,7 +53,7 @@ let s:purple          = s:light_purple
 let s:cyan            = s:light_cyan
 let s:green           = s:actual_green
 let s:red             = s:light_red
-let s:visual          = s:light_purple
+let s:visual          = s:lighter_black
 
 " https://github.com/noahfrederick/vim-hemisu/
 function! s:h(group, style)
