@@ -104,7 +104,7 @@ hi! link Keyword          Statement
 hi! link Exception        Statement
 
 
-call s:h("PreProc",     {"fg": s:cyan, "cterm": "bold"})
+call s:h("PreProc",     {"fg": s:yellow, "cterm": "bold"})
 hi! link Include          Statement
 hi! link Define           Statement
 hi! link Macro            PreProc
