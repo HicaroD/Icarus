@@ -2,7 +2,7 @@
 
 ![icarus](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fc.mql5.com%2F6%2F802%2Ficarus_new.jpg&f=1&nofb=1)
 
-🎨 A simple dark based colorscheme for Vim.
+🎨 A simple dark based color scheme for Vim.
 
 ## Screenshots
 ![1.png](screenshots/1.png)
