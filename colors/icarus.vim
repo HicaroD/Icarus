@@ -26,6 +26,7 @@ let s:lighter_black   = { "gui": "#4E4E4E", "cterm": "239" }
 let s:soft_grey       = { "gui": "#928374", "cterm": "244" }
 let s:lighter_gray    = { "gui": "#C6C6C6", "cterm": "251" }
 let s:bright_red      = { "gui": "#FF3D23", "cterm": "167" }
+let s:scarlet_red     = { "gui": "#FF2400", "cterm": "167" }
 let s:light_red       = { "gui": "#E32791", "cterm": "1"   }
 let s:orange          = { "gui": "#FBAB34", "cterm": "1"   }
 let s:bright_orange   = { "gui": "#C88623", "cterm": "208" }
@@ -82,7 +83,7 @@ call s:h("Character",     {"fg": s:lilac})
 
 " Any variable name
 call s:h("Identifier",    {"bg": s:bg, "fg": s:actual_white})
-call s:h("Function",      {"fg": s:bright_red, "cterm": "bold"})
+call s:h("Function",      {"fg": s:candy_red, "cterm": "bold"})
 call s:h("Statement",     {"fg": s:vivid_sky_blue})
 
 " if, then, else, endif, switch, etc.
