@@ -11,24 +11,24 @@
 
 1. From source
 
-```
-git clone https://github.com/HicaroD/Icarus
-mv Icarus/colors/icarus.vim ~/.vim/colors/icarus.vim
-```
+    ```
+    git clone https://github.com/HicaroD/Icarus
+    mv Icarus/colors/icarus.vim ~/.vim/colors/icarus.vim
+    ```
 
-2. [Vim-Plug][]
+2. [Plug][]
 
-In your `.vimrc` or `init.vim` (For NeoVim):
-```
-Plug 'HicaroD/Icarus'
-```
+    In your `.vimrc` or `init.vim` (For NeoVim):
+    ```
+    Plug 'HicaroD/Icarus'
+    ```
 
 3. [Vundle][]
 
-In your `.vimrc` or `init.vim` (For NeoVim):
-```
-Plugin 'HicaroD/Icarus'
-```
+    In your `.vimrc` or `init.vim` (For NeoVim):
+    ```
+    Plugin 'HicaroD/Icarus'
+    ```
 
 [vundle]: https://github.com/gmarik/Vundle.vim
 [plug]: https://github.com/junegunn/vim-plug
