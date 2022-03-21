@@ -26,7 +26,7 @@ let s:lighter_black   = { "gui": "#4E4E4E", "cterm": "239" }
 let s:soft_grey       = { "gui": "#928374", "cterm": "244" }
 let s:lighter_gray    = { "gui": "#C6C6C6", "cterm": "251" }
 let s:bright_red      = { "gui": "#FF3D23", "cterm": "167" }
-let s:scarlet_red     = { "gui": "#FF2400", "cterm": "167" }
+let s:scarlet_red     = { "gui": "#eb3400", "cterm": "167" }
 let s:light_red       = { "gui": "#EE7777", "cterm": "208" }
 let s:bright_orange   = { "gui": "#C88623", "cterm": "208" }
 let s:indian_red      = { "gui": "#D75F5F", "cterm": "167" }
@@ -83,25 +83,25 @@ call s:h("Character",     {"fg": s:lilac})
 
 " Any variable name
 call s:h("Identifier",    {"bg": s:bg, "fg": s:actual_white})
-call s:h("Function",      {"fg": s:scarlet_red, "cterm": "bold"})
-call s:h("Statement",     {"fg": s:azure_blue})
+call s:h("Function",      {"fg": s:azure_blue, "cterm": "bold"})
+call s:h("Statement",     {"fg": s:bright_red})
 
 " if, then, else, endif, switch, etc.
-call s:h("Conditional",   {"fg": s:dodger_blue})
+call s:h("Conditional",   {"fg": s:bright_red})
 
 " case, default, etc.
-call s:h("Label",         {"fg": s:dodger_blue})
+call s:h("Label",         {"fg": s:bright_red})
 
 " sizeof, +, *, etc.
-call s:h("Operator",      {"fg": s:vivid_sky_blue})
+call s:h("Operator",      {"fg": s:dodger_blue})
 
-call s:h("Keyword",       {"fg": s:vivid_sky_blue})
+call s:h("Keyword",       {"fg": s:bright_red})
 
 " try, catch, throw
-call s:h("Expection",     {"fg": s:vivid_sky_blue})
+call s:h("Expection",     {"fg": s:bright_red})
 
 
-call s:h("PreProc",     {"fg": s:yellow, "cterm": "bold"})
+call s:h("PreProc",     {"fg": s:yellow})
 hi! link Include          Statement
 hi! link Define           Statement
 hi! link Macro            PreProc
