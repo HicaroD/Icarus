@@ -15,7 +15,7 @@ endif
 let g:colors_name='icarus'
 
 let s:black           = { "gui": "#000000", "cterm": "232" }
-let s:hard_black      = { "gui": "#262626", "cterm": "234" }
+let s:hard_black      = { "gui": "#202020", "cterm": "234" }
 let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
 let s:white           = { "gui": "#F1F1F1", "cterm": "15"  }
 let s:actual_white    = { "gui": "#FFFFFF", "cterm": "231" }
