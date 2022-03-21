@@ -113,7 +113,7 @@ hi! link Structure        Type
 hi! link Typedef          Type
 
 " any special symbol (parenthesis, curly braces and more)
-call s:h("Special",       {"fg": s:green, "gui": "italic"})
+call s:h("Special",       {"fg": s:green})
 hi! link SpecialChar      Special
 hi! link Tag              Special
 hi! link Delimiter        Special
