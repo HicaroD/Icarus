@@ -4,4 +4,4 @@ Using [`python-syntax`](https://github.com/vim-python/python-syntax)
 Using [`vim-javascript-syntax`](https://github.com/jelera/vim-javascript-syntax)
 ![javascript](javascript.png)
 
-![markdown](md.png)
+![markdown](markdown.png)
